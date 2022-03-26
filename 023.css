@@ -1,0 +1,49 @@
+/*style*/
+/*selector es un tag*/
+
+h1{
+    color: orange; !important
+
+}
+
+p{
+    color: #35ff00;
+    text-align: center;
+    
+  
+} 
+
+/*selector es una id*/
+
+#para1 {
+    text-align: right;
+    color: rgb(89, 0, 255);
+  }
+
+/*selector es una clase*/
+
+.left {
+    text-align: left;
+    color: rgb(204, 132, 39);
+
+
+}
+
+p.center {
+    text-align: center;
+    color: red;
+  }
+
+
+p.large {
+    font-size: 300%;
+    }
+
+h4{
+    border:2px solid Tomato;
+} 
+
+body{
+    background-color:rgba(255, 99, 71, 0.5);
+
+}

@@ -1,0 +1,58 @@
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  div.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.relative02 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+  
+    div.absolute {
+            position: absolute;   
+            height:50px;
+            width:400px;
+            margin:0px auto;
+            background-color:red;
+        
+  }
+
+    .absolute {
+    position: absolute;   
+    height:200px;
+    width: 100px;
+    background-color:red;
+    margin: 50px;
+
+    
+    }
+    div.centered {
+    margin: auto;   
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    transform: translate();
+    border: 3px solid
+    
+ 
+
+
+
+
+    }

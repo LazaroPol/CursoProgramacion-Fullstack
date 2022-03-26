@@ -1,0 +1,32 @@
+div.yellow{
+    background-color: yellow;
+}
+
+div.blue{
+    background-color: blue;
+
+}
+div.red{
+    background-color: red;
+}
+div.green{
+    background-color: green;
+}
+div.purple{
+    background-color: purple;
+}
+section.orange{
+    background-color: orange;
+}
+body.brown{
+    background-color: brown;
+}
+header.gray{
+    background-color: gray;
+}
+*{
+    margin: 2%;
+}
+div.row{
+     margin: 2%;
+}
