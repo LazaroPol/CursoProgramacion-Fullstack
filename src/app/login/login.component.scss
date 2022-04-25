@@ -1,0 +1,122 @@
+.topbar{
+    grid-area: main-view;
+    height: 64px;
+    min-width: 0;
+    pointer-events: none;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+}
+.div{
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+    z-index: -1;
+}
+.header{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-padding-end: 16px;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    max-width: calc(100vw - var(--nav-bar-width));
+    padding: 16px;
+    padding-inline-end: 16px;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+.flechas{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+.Button{
+    margin-left: auto;
+     font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding-block: 13px;
+    padding-inline: 31px;
+    border: 1px solid var(--essential-subdued,#878787);
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    border: 1px solid rgba(255,255,255,.7);
+
+}
+.usuario{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-margin-start: 16px;
+    align-items: center;
+    background-color: rgba(0,0,0,.7);
+    border: 0;
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    height: 32px;
+    justify-content: center;
+    margin-inline-start: 16px;
+    padding: 2px;
+    position: relative;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}

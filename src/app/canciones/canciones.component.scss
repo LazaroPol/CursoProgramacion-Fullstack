@@ -1,0 +1,79 @@
+.container{
+    column-width: 170px;
+    column-count: 3;
+    grid-gap: var(--grid-gap);
+    display: grid;
+    grid-template-columns: repeat(var(--column-count),minmax(0,1fr));
+    grid-auto-rows: 0;
+    grid-template-rows: 1fr;
+    overflow-y: hidden;
+}
+.titlepodc{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    padding-block-end: 4px;
+    color: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+}
+.subtitle{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: var(--text-subdued,#6a6a6a);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    text-decoration:none;
+ 
+}
+.photo{
+    --card-image-border-radius: clamp(4px,(var(--column-width,0px) - 32px) * 0.025,8px);
+    background-color: #333;
+    border-radius: var(--card-image-border-radius);
+    -webkit-box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+    
+    position: relative;
+    
+}
+.podcast{
+    --card-container-border-radius: clamp(4px,(var(--column-width,0px) - 32px) * 0.025,8px);
+    -webkit-box-flex: 1;
+    background: #0b0b0b;
+    border-radius: calc(var(--card-container-border-radius) + 2px);
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

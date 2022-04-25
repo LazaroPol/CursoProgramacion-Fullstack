@@ -4,10 +4,131 @@
     width: 100%;
     color: #fff;
     position: relative;
+    padding: 0px 8px;
 }
 
-.card{
-    background-color: black;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.card {
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    cursor: default;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    padding-top: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    background-color: #000;
+
+}
+.button{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+    appearance: auto;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+
+
+}
+.home{
+    height: 20px;
+    max-width: 21px;
+    width: 100%;
+    color: #fff;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    text-decoration:none
+}
+.loupe{
+    height: 20px;
+    max-width: 21px;
+    width: 100%;
+    color: #fff;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    text-decoration:none
+}
+.books{
+    height: 20px;
+    max-width: 21px;
+    width: 100%;
+    color: #fff;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    text-decoration:none
+}
+
+
+.createlist{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: max-content;
+    opacity: .7;
+    padding: 0px 8px;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    width: 259px;
+    height: 100%;    
+    
+}
+.divinstall{
+    width: 259px;
+    height: 40px;
+    padding: 0px 8px;
+    
+}
+.install{
+    background-color: rgb(52, 52, 52);
+    padding: 0 8px;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration:none;
+   
+    
+}
+.songslike{
+    color: #fff;
+    text-decoration:none;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 259px;
+    background-color: #000;  
+}
+.void{
+    height: 100%;
+    width: 259px;
 }
